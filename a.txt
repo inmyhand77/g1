@@ -1,0 +1,6 @@
+    1  export LOCATION=US
+    2  gsutil mb -l $LOCATION gs://$DEVSHELL_PROJECT_ID
+    3  gsutil cp gs://cloud-training/gcpfci/my-excellent-blog.png my-excellent-blog.png
+    4  gsutil cp my-excellent-blog.png gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png
+    5  gsutil acl ch -u allUsers:R gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png
+    6  history
