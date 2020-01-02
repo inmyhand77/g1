@@ -1,0 +1,1 @@
+gcloud compute project-info describe --project  qwiklabs-gcp-01-ed84cde4a4cb

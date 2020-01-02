@@ -1,0 +1,6 @@
+export PROJECT_ID=qwiklabs-gcp-01-ed84cde4a4cb
+export ZONE='asia-east1-a'
+gcloud compute project-info describe --project $PROJECT_ID 
+
+echo $PROJECT_ID
+echo $ZONE
