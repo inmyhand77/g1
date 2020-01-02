@@ -1,2 +1,4 @@
+gcloud config set project qwiklabs-gcp-01-f8f0b6fa32cc 
+
 gcloud config set compute/zone us-central1-a
 gcloud container clusters create cn 
