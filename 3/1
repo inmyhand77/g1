@@ -1,0 +1,6 @@
+docker run hello-world
+docker images
+docker ps -a
+
+mkdir test && cd test
+

@@ -1,0 +1,4 @@
+docker rmi node-app:0.2 gcr.io/qwiklabs-gcp-01-b2fe9f5ca79e/node-app node-app:0.1
+docker rmi node:6
+docker rmi $(docker images -aq) # remove remaining images
+docker images

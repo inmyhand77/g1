@@ -1,0 +1,3 @@
+docker tag node-app:0.2 gcr.io/qwiklabs-gcp-01-b2fe9f5ca79e/node-app:0.2
+docker images
+docker push gcr.io/qwiklabs-gcp-01-b2fe9f5ca79e/node-app:0.2

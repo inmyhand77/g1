@@ -1,0 +1,2 @@
+docker run -p 8080:80 --name my-app-2 -d node-app:0.2
+docker ps
