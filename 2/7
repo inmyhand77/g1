@@ -1,0 +1,5 @@
+gcloud compute networks create privatenet --subnet-mode=custom
+gcloud compute networks subnets create private-sub \
+    --network=privatenet \
+    --region=us-central1 \
+    --range 10.1.0.0/28

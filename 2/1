@@ -1,0 +1,5 @@
+gcloud auth list
+
+gcloud config list project
+gcloud compute networks create labnet --subnet-mode=custom
+

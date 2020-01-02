@@ -1,0 +1,6 @@
+echo 'gcloud compute firewall-rules create <FIREWALL_NAME> --network labnet --allow tcp,udp,icmp --source-ranges <IP_RANGE>'
+echo 'gcloud compute firewall-rules create <FIREWALL_NAME> --network labnet --allow tcp:22,tcp:3389,icmp'
+gcloud compute networks subnets create labnet-sub \
+   --network labnet \
+   --region us-central1 \
+   --range 10.0.0.0/28
