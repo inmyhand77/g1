@@ -1,10 +1,21 @@
-// calculator-base.js
+var net = require('net');
 
-module.exports = class Calculator {
-  add(a, b) {
-    return a + b
-  }
-  substract(a, b) {
-    return a - b
-  }
-}
+var ip = '127.0.0.1';
+var port = 3000;
+
+var socket = new net.Socket();
+socket.connect({host:ip, port:port}, function() {
+   console.log('서버와 연결 성공');
+
+   socket.write('Hello Socket Server\n');
+   socket.end();
+
+    socket.on('data', function(chunk) {
+        console.log('서버가 보냄 : ',
+        chunk.toString());
+    });
+
+    socket.on('end', function() {
+        console.log('서버 연결 종료');
+    });
+});
