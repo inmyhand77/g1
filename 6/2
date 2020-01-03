@@ -1,0 +1,2 @@
+gcloud compute instance-templates create nginx-template \
+         --metadata-from-file startup-script=startup.sh

@@ -1,0 +1,2 @@
+gcloud compute url-maps create web-map \
+    --default-service nginx-backend

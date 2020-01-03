@@ -1,0 +1,2 @@
+gcloud compute backend-services create nginx-backend \
+      --protocol HTTP --http-health-checks http-basic-check --global

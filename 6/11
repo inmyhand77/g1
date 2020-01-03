@@ -1,0 +1,4 @@
+gcloud compute backend-services add-backend nginx-backend \
+    --instance-group nginx-group \
+    --instance-group-zone us-central1-a \
+    --global

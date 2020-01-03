@@ -1,0 +1,3 @@
+gcloud compute instance-groups managed \
+       set-named-ports nginx-group \
+       --named-ports http:80
