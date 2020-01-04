@@ -7,25 +7,5 @@
     7  sudo apt-get install telnetd
     8  sudo /etc/init.d/openbsd-inetd restart
     9  netstat -a | grep telnet
-   10  telnet
-   11  history
-   12  history > a.sh
-   13  mkdir p
-   14  cd p
-   15  ;s
-   16  ls
-   17  cd 1
-   18  ls
-   19  cd beluga/
-   20  ls
-   21  git pull origin master
-   22  cd ..
    23  git clone github.com/inmyhand77/g1
    24  git clone https://github.com/inmyhand77/g1
-   25  ls
-   26  cd g1
-   27  ls
-   28  mkdir 7
-   29  cd 7
-   30  history
-   31  history > 1
