@@ -1,0 +1,2 @@
+ docker run -d --name apache -p 8080:80 httpd
+ docker exec -it af8f7594ad3b /bin/bash

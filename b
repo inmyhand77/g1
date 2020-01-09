@@ -1,1 +1,0 @@
-firewall-cmd --permanent --add-service=telnet
