@@ -1,0 +1,2 @@
+ sudo vi /private/etc/apache2/httpd.conf
+ sudo apachectl restart
