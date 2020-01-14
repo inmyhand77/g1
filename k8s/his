@@ -1,0 +1,20 @@
+ 813  gcloud container clusters create rps
+  814  gcloud auth list
+  815  mkdir p
+  816  cd p
+  817  git clone https://github.com/inmyhand77/g1.git
+  818  cd g1
+  819  ls
+  820  mkdir k8s
+  821  cd k8s
+  822  vi 1
+  823  chmod +x 1
+  824  ./1
+  825  gcloud config list project
+  826  vi 2
+  827  vi 3
+  828  chmod +x 3
+  829  ./3
+  830  gcloud container clusters create rps
+  831  gcloud container clusters delete rps
+  832  history
