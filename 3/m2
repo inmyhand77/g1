@@ -1,5 +1,0 @@
-docker ps
-docker exec -it mysql /bin/bash
-echo 'mysql -u root -p'
-echo 'password is 1234'
-echo 'select @@version;'
